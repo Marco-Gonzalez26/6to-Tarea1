@@ -3,6 +3,8 @@
 
 Tarea de la semana 1 para la materia de Aplicaciones Web del Sexto Semestre de Ingenieria de Software, esta tarea consta de una pagina web estática desarrollada en HTML5, PHP, CSS, y JavaScript.
 
+La pagina principal es una bentogrid, donde se describen mis hobbies, un poco sobre mi y mis habilidades tecnicas, en las habilidades se puede dar click para ir al archivo de skills.html y ver todo lo relacionado con las habilidades, tambien en la bentogrid esta el apartado de calculadora, donde si se hace click se va al archivo calculator.php en donde se desarrollo la calculadora dentro de un archivo PHP usando también JS
+
 
 
 
