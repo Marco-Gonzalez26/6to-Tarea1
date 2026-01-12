@@ -3,21 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Marco Gonzalez - Desarrollador de Software</title>
   </head>
   <body>
-    <main>
-      <header>
-        <nav>
+    <div class="container">
+      <div class="bento-grid">
+        <div data-glow class="bento-item hero">
+          <div data-glow></div>
+
+          <h1>Marco Gonzalez</h1>
+          <p>Desarrollador de Software</p>
+        </div>
+
+        <div class="bento-item about" data-glow>
+          <div data-glow></div>
+          <h2>Sobre mí</h2>
+
+          <p>
+            Mi nombre es Marco Gonzalez, cuando era niño quería ser médico, y
+            estaba a punto de empezar la carrera pero el COVID-19 llegó, y no
+            pude empezar, así que empecé a buscar otra alternativa, en esa
+            búsqueda encontré un video de Desarrollo Web, y me enamoré.
+            Orgullosamente puedo decir que ni siquiera sabía cómo importar un
+            archivo CSS en un HTML y pero a mis 21 años pude dirigir un pequeño
+            equipo de desarrollo y actualmente me interesó el mundo del
+            desarrollo de Inteligencia Artificial, ya que puedo combinar mis 2
+            pasiones: Medicina y Desarrollo de Software.
+          </p>
+        </div>
+
+        <div class="bento-item hobbies" data-glow>
+          <div data-glow></div>
+          <h2>Mis hobbies</h2>
           <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Sobre mi</a></li>
-            <li><a href="contact.html">Contacto</a></li>
+            <li>👨‍💻 Programar</li>
+            <li>📚 Leer</li>
+            <li>🎮 Jugar videojuegos</li>
+            <li>📸 Fotografíar paisajes</li>
+            <li>🎸 Tocar guitarra</li>
           </ul>
-        </nav>
-      </header>
-      <section></section>
-      <footer></footer>
-    </main>
+        </div>
+
+        <div
+          class="bento-item skills clickable"
+          data-glow
+          onclick="location.href='pages/skills.html'">
+        <div data-glow></div>
+        <h2>Habilidades técnicas</h2>
+        <p class="skills-subtitle">Click para ver más detalles</p>
+        <div class="badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">PHP</span>
+          <span class="badge">React</span>
+          <span class="badge">Node.js</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">Git</span>
+          <span class="badge">Java</span>
+          <span class="badge">C++</span>
+          <span class="badge">Python</span>
+          <span class="badge">C#</span>
+          <span class="badge">TypeScript</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">AngularJS</span>
+          <span class="badge">Bootstrap</span>
+          <span class="badge">TailwindCSS</span>
+          <span class="badge">NextJS</span>
+          <span class="badge">ExpressJS</span>
+          <span class="badge">NestJS</span>
+          <span class="badge">N8N</span>
+          <span class="badge">Docker</span>
+        </div>
+      </div>
+
+      <div
+        class="bento-item bento-calculator clickable"
+        data-glow
+        onclick="location.href='php/calculator.php'">
+        <div data-glow></div>
+        <div class="bento-calculator-icon">
+          <img src="imgs/calculator-svg.svg" alt="Calculadora" />
+          <h2>Calculadora</h2>
+        </div>
+        <p>Click para ver más detalles</p>
+
+        <p>Calculadora desarrollada con PHP y JavaScript</p>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
